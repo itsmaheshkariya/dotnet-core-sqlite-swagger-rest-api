@@ -6,7 +6,7 @@ git clone https://github.com/maheshkareeya/dotnet-core-sqlite-swagger-rest-api.g
 ```
 `Change Directory`
 ```
-cd dotnet-core-mongodb-swagger-rest-api
+cd dotnet-core-sqlite-swagger-rest-api
 ```
 
 `Restore Packages`
