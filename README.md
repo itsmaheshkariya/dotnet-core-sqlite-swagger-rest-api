@@ -1,4 +1,5 @@
 ## Dotnet Core Swagger Sqlite REST API
+![.NET Core](https://github.com/maheshkareeya/dotnet-core-sqlite-swagger-rest-api/workflows/.NET%20Core/badge.svg)
 
 `Git Clone`
 ```
