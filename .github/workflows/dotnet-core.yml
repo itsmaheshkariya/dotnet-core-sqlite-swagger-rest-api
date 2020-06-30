@@ -25,4 +25,4 @@ jobs:
       run: dotnet test --no-restore --verbosity normal
     - name: Build Container
       run: |
-        docker build ./ -t dotnetCoreSqliteSwaggerRestApi:latest
+        docker build ./ -t dotnet-core-sqlite-swagger-rest-api:latest
