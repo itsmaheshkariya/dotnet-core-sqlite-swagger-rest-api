@@ -25,5 +25,7 @@ jobs:
       run: dotnet test --no-restore --verbosity normal
     - name: Docker Build
       run: |
+        docker login -u ${{ secrets.USERNAME }} -p ${{ secrets.PASSWORD }} &&
         docker build ./ -t dotnet-core-sqlite-swagger-rest-api:latest &&
         docker run -d -p 5000:5000 --name myapp dotnet-core-sqlite-swagger-rest-api:latest
+        
